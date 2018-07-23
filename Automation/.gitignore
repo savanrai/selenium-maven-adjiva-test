@@ -1,0 +1,14 @@
+*.classpath
+*.iml
+*.ipr
+*.iws
+*.log
+*.prefs
+*.project
+*~
+.checkstyle
+.settings/
+target/
+*.orig
+.idea
+test-output/

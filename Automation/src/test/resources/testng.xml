@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="1">
+	<test name="ValidationTests">
+		<classes>
+			<class name="com.adjiva.tests.PageValidationTests">
+				<methods>
+					<include name="requiredFieldValidation" />
+					<include name="minimumFieldValidation" />
+					<include name="emailFieldValidation" />
+					<include name="phoneNumberValidation" />
+				</methods>
+			</class>
+			<class name="com.adjiva.tests.UserRegistrationTests">
+				<methods>
+					<include name="UserRegistration" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
