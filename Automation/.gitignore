@@ -12,3 +12,4 @@ target/
 *.orig
 .idea
 test-output/
+*.DS_Store
